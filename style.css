@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(45deg, #EB984E, #E67E22);
+}
+
+h1{
+    text-align: center;
+    text-transform:uppercase;
+    margin-top: 30px;
+}
+
+h3{
+    text-align: center;
+   
+
+}
+
+.login-page{
+    width: 400px;
+    /* height: 250px; */
+    background: linear-gradient(45deg,#27dbe9,#e3e67d);
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.icon{
+    list-style: none;
+    /* display: inline-block; */
+    text-align: center;
+    /* margin: 20px 10px; */
+    
+}
+
+.icon li{
+    display: inline-block;
+    margin: 30px 30px;
+    font-size: 50px;
+    transition: 1s;
+    
+    
+    
+    
+    
+}
+
+
+
+.icon li a:hover{
+    color: crimson;
+    transition: 1s;
+
+}
+
+input:focus{
+	outline: none;
+}
+
+.section-1{
+    padding: 15px 113px;
+    margin-top: 5vh;
+    border-radius: 20px;
+    background: transparent;
+    background-color: none;
+    border:dotted;
+    
+    
+}
+
+.section-2{
+    padding: 15px 113px;
+    margin-top: 1vh;
+    border-radius: 20px;
+    background: transparent;
+    border:dotted;
+}
+
+.section-3{
+    padding: 15px 113px;
+    margin-top: 1vh;
+    border-radius: 20px;
+    background: transparent;
+    border:dotted;
+}
+
+.section-4{
+    padding: 15px 113px;
+    margin-top: 1vh;
+    border-radius: 20px;
+    background: transparent;
+    border:dotted;
+}
+.section-5{
+    padding: 15px 174px;
+    margin-top: 2vh;
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient(45deg, #2ECC71, #DC7633);
+    border:none;
+    cursor: pointer;
+    transition: 1s;
+
+    
+}
+.section-5:hover{
+    color: crimson;
+    transition: 1s;
+    
+}
